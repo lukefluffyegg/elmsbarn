@@ -1,0 +1,117 @@
+/** ======================================================================================== **/
+/** Header ================================================================================= **/
+/** ======================================================================================== **/
+header {
+  color: #fff;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 108px;
+  padding: 0 40px;
+  top: 50px;
+  z-index: 10;
+}
+
+h1 {
+  display: inline-block;
+  vertical-align: middle !important;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  color: #001837;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 36px;
+  font-weight: 600;
+  position: relative;
+ left: 50px;
+}
+
+h1 img {
+ width: 10%;
+}
+
+.link-wrapper {
+  position: absolute;
+  right: 50px;
+  height: 100%;
+  top: 0;
+}
+
+.link-wrapper a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+}
+
+a[title] {
+    color: #fff;
+}
+
+a {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  color: #001837;
+  font-size: 18px;
+  margin: 0;
+  padding: 0 12px 0 0;
+  margin-top: 45px;
+  line-height: 1;
+  font-weight: 300;
+  position: relative;
+}
+
+h1:after,
+a:after {
+  color: #fff;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  content: attr(title);
+  overflow: hidden;
+}
+
+
+.panel {
+  height: 100%;
+}
+
+.panel--one {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.panel--one:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right,#ADADA1 ,#ADADA1 );
+    opacity: .1;
+}
+
+.caption {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  top: 50%;
+  margin-top: 23%;
+  font-size: 32px;
+  color: #fff;
+}
+
+.slick-slider {
+    position: inherit !important;
+}
